@@ -1,8 +1,10 @@
 import Image from "next/image";
-import ThemeSwitch from "@/components/theme-switch";
+import ReactMarkdown from 'react-markdown'
+// import ThemeSwitch from "@/components/theme-switch";
 import { generalData } from "@/data/general";
 import { contentData } from "@/data/content";
 import type { Content } from "@/data/content";
+import workExperience from '@/data/work-experience.yml'
 
 type ContentProps = Content;
 
@@ -23,9 +25,9 @@ const Content: React.FC<ContentProps> = ({ title, items }) => {
                   {item.subTitle}
                 </p>
                 {item.description ? (
-                  <p className="text-slate-600 dark:text-gray-400 mt-2">
-                    {item.description}
-                  </p>
+                  <div className="text-slate-600 dark:text-gray-400 mt-2">
+                    <ReactMarkdown className="prose prose-sm dark:prose-invert prose-p:m-0 prose-ul:my-1 prose-li:m-0">{item.description}</ReactMarkdown>
+                  </div>
                 ) : null}
               </div>
             </div>
@@ -77,6 +79,7 @@ export default function Home() {
             <p>{generalData.about}</p>
           </div>
         </section>
+        <Content {...workExperience} />
         {contentData.map((content, index) => {
           return <Content {...content} key={index} />;
         })}
@@ -116,9 +119,9 @@ export default function Home() {
             })}
           </div>
         </section>
-        <div className="px-6 absolute left-0 bottom-6">
+        {/* <div className="px-6 absolute left-0 bottom-6">
           <ThemeSwitch />
-        </div>
+        </div> */}
       </main>
     </>
   );
