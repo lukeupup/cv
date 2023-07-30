@@ -1,0 +1,85 @@
+generalData:
+  title: 鲁轲
+  subTitle: 前端架构师 / 高级前端工程师
+  generalDataItems:
+    - icon: info
+      content: 男 / 36岁
+    - icon: education
+      content: 同济大学 本科 计算机科学与技术
+    - icon: telephone
+      content: +86 156-1870-9033
+    - icon: email
+      content: lukeupup@gmail.com
+aboutMe:
+  title: '关键词'
+  description: |
+    12年前端工作经验 负责过多个大型互联网和SaaS项目
+
+    技术栈：React.js / TypeScript
+workExperience:
+  title: 工作经历
+  data:
+  - title: StoreHub
+    subTitle: 前端架构师
+    date: 2019.10 至今 
+    description: |
+      总体负责公司所有web端产品的研发与技术革新。包括面向东南亚商家的收银、库存管理、客户管理系统（Storehub Backoffice），以及扫码点单及外卖服务（beepit.com）等。
+
+      主要负责项目：
+      - 团队技术把关
+        -	Code review
+        -	Interview
+      - 前端日志及监控系统设计
+      - 产品国际化流程的设计与开发
+      - StoreHub Backoffice: 
+        - 设计并实施了大型SaaS 产品的渐进式技术升级（handlebars+jQuery -> React.js），实现了新老项目的共存与无缝切换。建立了公司前端产品的发布策略与CDN部署方案。
+        - 负责了Backoffice的核心功能之一 – Sales Reports 的开发。实现了高度可配置的、灵活响应、性能优越的报表。
+      - Beepit.com:
+        -	设计并带领团队完成redux重构
+        - 实现新UI基础组件
+  - title: 格智软件
+    subTitle: 前端架构师中台开发负责人；融资租赁项目前端架构师
+    date: 2018/06 ~ 2019/10 
+    description: |
+      负责基于区块链的 SaaS 平台的前、中台开发。
+
+      主要负责项目：
+      - TIDE Gateway: 区块链平台的中台。作为客户端与区块链通信的桥梁，提供企业级的 SaaS 平台解决方案。带领团队实现了企业级用户管理、权限控制、私钥管理、数据模型自动生成、Serverless Function 等功能。此平台基于 Egg.js / koa2，用 TypeScript 开发。
+      - TIDE Console: 区块链平台的前台。作为区块链解决方案的管理界面，并支持嵌入用户自己开发的应用页面。负责了租户管理、自动化渲染表单、用户自定义界面等模块的开发。开发技术主要基于 antd / next.js / React / mobx。
+      - TIDE IDE: 基于 VSCode 开发的一套区块链应用开发套件。功能包括项目结构管理、构建管理、DSL 语法检查等。主要基于 Typescript 和 VSCode API开发。
+      - 三一客户云 App：三一集团面向终端用户的手机 App。负责用 React-Native 开发原生应用界面，以及基于 Webview 的 混合 UI 的开发。开发技术主要基于 Taro / React-Native。
+      - 三一集团融资租赁项目：负责三一集团的融资租赁业务平台的开发。负责项目整体架构设计、前端及中台应用层开发、项目管理等。主要基于公司自有的 TIDE 开发框架，和 React / mobx / Node.js 等技术。
+  - title: SAP
+    subTitle: 高级 UI 工程师
+    date: 2014/04 ~ 2018/06
+    description: |
+      负责 SAP SuccessFactors（人力资源管理平台）的前端开发。 
+
+      主要负责模块： 
+      - Config UI: 帮助用户根据任意数据模型自定义 UI 界面。个人负责 UI 层渲染、与 API 交互等部分，是项目两个前端负责人之一。 
+      - Extension Center: 允许用户定义自有数据模型（类似数据库）从而实现定制化业务。带领两名同事负责项目全新前端的实现。 并基于此研究有两篇专利被收录。
+      - 生产力工具研发 - 开发了一系列用于提高公司工程师开发效率的辅助性程序。举例：
+        -	DWR Explorer: 一个基于 Chrome developer tools 的插件，用于把DWR（一种用于前端与Java API通讯的协议）请求转换成可读的JSON格式数据。
+        -	WebIDE Migrator: 用于在不同开发环境之间迁移与转换代码的 Node.js 项目。 
+      Config UI 与 Extension Center 主要所用技术为 SAP 自研 UI 框架 SAPUI5。
+  - title: 优价网络
+    subTitle: 前端开发负责人
+    date: 2012/11 ~ 2014/03
+    description: |
+      作为公司唯一的前端工程师，独立负责了三个网站的前端开发，兼任简单的后端（Python）开发。（公司现已停止运营，网站已关闭） 
+      -	favbuy.com: 面向海外品牌的导购网站。基于瀑布流布局构造
+      -	dealpick.com: 小型导购与优惠信息平台。 
+      -	data007.com: 面向淘宝店铺的数据分析平台。以图表形式帮助客户分析店铺运营状况。
+  - title: 脚印网络
+    subTitle: 前/后端开发工程师；兼任网站设计师 
+    date: 2011/07 ~ 2012/11
+    description: |
+      主要负责网站前端开发。兼任简单的后端（PHP）开发，并负责了全站的 UI 设计。 
+
+      主要产品： 
+      -	joyn.cn: 旅游信息与游记分享平台（网站内容现已更换）。负责了景点、游记等模块的实现。
+  - title: AccelOps
+    subTitle: 测试工程师 
+    date: 2010/07 ~ 2011/07
+    description: |
+      主要负责公司的 IT 管理软件产品（AccelOps）的功能测试与自动化测试（使用 Python）。
