@@ -33,11 +33,11 @@ workExperience:
         - Product internationalization tools and workflows: Developed a series of automation tools to ensure 100% translation coverage before product release. The tools also automatically detected potential translation issues and eliminated program errors caused by translation problems.
         - Other engineering optimizations: including build time optimization, security vulnerability scanning, A/B Testing, and mock server implementation.
       - Beepit.com: An on-site food ordering & delivery platform for Southeast Asian consumers.
-        - Planned and implemented progressive refactoring of the project (Class component + original Redux to Functional component + redux-toolkit).
+        - Planned and implemented progressive refactoring of the project (Class component + naked Redux → Functional component + redux-toolkit).
         - Led UI upgrades from version 1.0 to 2.0, including the development of most basic UI components. Achieved seamless switching between the old and new layout systems.
         - Designed and implemented page loading performance optimizations, improving landing page loading time by about 40%.
       - StoreHub Backoffice: POS system management backend for Southeast Asian merchants.
-        - Designed and implemented progressive architecture upgrades for a large-scale product (Handlebars + jQuery to React.js), achieving seamless switching between the old and new projects. Independently designed the new project's infrastructure and promoted the comprehensive application of TypeScript in the project.
+        - Designed and implemented progressive architecture upgrades for a large-scale product (Handlebars + jQuery → React.js), achieving seamless switching between the old and new projects. Independently designed the new project's infrastructure and promoted the comprehensive application of TypeScript in the project.
         - Responsible for developing one of Backoffice's core features – Sales Reports, creating highly configurable, flexible, and high-performance reports and charts.
   - title: Gezhi Tech
     subTitle: Middle Platform Development PIC; Frontend Architect for Leasing Project
