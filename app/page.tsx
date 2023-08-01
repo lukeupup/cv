@@ -142,7 +142,7 @@ export default function Home() {
     <>
       <main className="max-w-3xl mx-auto px-6 py-20 relative min-h-screen font-light print:max-w-none">
         <p className="text-sm text-slate-400 text-center mb-8 hidden print:block">
-          {locale === "zh" ? "在线查看：" : "View online:"}
+          {locale === "zh" ? "在线查看：" : "View online: "}
           <a href="https://about-luke-lu.vercel.app" className="underline" target="_blank">
             https://about-luke-lu.vercel.app
           </a>
