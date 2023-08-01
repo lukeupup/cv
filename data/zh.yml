@@ -34,11 +34,11 @@ workExperience:
         - 产品国际化工具与流程：开发了一系列自动化工具，保证产品上线前翻译的100%覆盖率。同时可以自动探测翻译中的潜在问题，消除翻译问题引起的程序错误。
         - 其他工程优化：包括构建时间优化、安全隐患扫描、A/B Testing、mock server等。
       - Beepit.com：面向东南亚消费者的扫码点单+外卖平台。
-        - 规划并实施了项目的渐进式重构（`Class component`+`原始redux` -> `Functional component`+`redux-toolkit`）
+        - 规划并实施了项目的渐进式重构（Class component + 原始redux → Functional component + redux-toolkit）
         - 负责UI从1.0到2.0的升级。其间，负责了大部分基础UI组件的开发。实现了新老布局系统的共存和无缝切换。
         - 设计并实施了页面加载性能优化。落地页加载时间提高约40%。
       - StoreHub Backoffice：面向东南亚商家的收银系统管理后台。
-        - 设计并实施大型产品的渐进式架构升级（`Handlebars`+`jQuery`` -> `React.js`），实现了新老项目的共存与无缝切换。独立设计了新项目的基础架构。并推动了`Typescript`在项目中的全面应用。
+        - 设计并实施大型产品的渐进式架构升级（Handlebars+ jQuery → React.js），实现了新老项目的共存与无缝切换。独立设计了新项目的基础架构。并推动了Typescript在项目中的全面应用。
         - 负责了Backoffice的核心功能之一 – Sales Reports 的开发。实现了高度可配置的、灵活响应、性能优越的报表。
   - title: 格智软件
     subTitle: 前端架构师中台开发负责人；融资租赁项目前端架构师
