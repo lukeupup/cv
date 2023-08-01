@@ -1,5 +1,5 @@
 generalData:
-  title: Lu Ke
+  title: Luke Lu
   subTitle: Frontend Architect / Senior Frontend Engineer / Full-stack Engineer
   generalDataItems:
     - icon: Telephone
@@ -11,11 +11,11 @@ generalData:
     - icon: University
       content: Tongji University, Bachelor's Degree in Computer Science and Technology
 aboutMe:
-  title: 'About Me'
+  title: About Me
   description: |
-    12 years of frontend work experience. I have been responsible for multiple large-scale internet and SaaS projects. Proficient in backend development using Node.js. Familiar with cloud-native technologies such as Docker and Kubernetes.
+    12 years of frontend work experience. Have been responsible for multiple large internet and SaaS projects. Familar with backend development using Node.js. Have necessary understanding of cloud-native technologies such as Docker and Kubernetes.
 
-    Tech Stack: React.js / JavaScript / TypeScript / Node.js
+    Tech Stack: `React.js` / `JavaScript` / `TypeScript` / `Node.js`
 workExperience:
   title: Work Experience
   data:
@@ -23,34 +23,34 @@ workExperience:
     subTitle: Frontend Architect
     date: October 2019 - Present
     description: |
-      Overall responsible for the development and technological innovation of all web-based products in the company.
+      Be responsible for the development and technological innovation of all web-based products in the company.
 
       Main responsibilities include:
       - Team-wide technical planning and execution. During this period, I participated in important feature requirement reviews, architecture design, code reviews, etc., for all frontend products of the company.
-      - Designed and established the frontend logging, monitoring, and alerting system. Proactively detected significant issues and raised alerts more than ten times, with over 90% of issues resolved before being noticed by users. Used tools such as Kibana, Sentry, NewRelic, etc.
-      - Established team-wide code standards for React and Redux code styles. Ensured code quality through a combination of manual reviews and automated tools (Eslint, Prettier, etc.), and promoted a culture of code review within the team.
-      - Team member development: Designed interview processes and an original question bank for junior and intermediate candidates, effectively improving the performance of new hires. Increased the technical abilities of team members through monitoring rotations, technical seminars, etc.
-      - Product internationalization tools and processes: Developed a series of automation tools to ensure 100% translation coverage before product launch. The tools also automatically detected potential translation issues and eliminated program errors caused by translation problems.
-      - Other engineering optimizations, including build time optimization, security vulnerability scanning, A/B Testing, and mock server implementation.
-      - Beepit.com: Scanning and ordering + delivery platform for Southeast Asian consumers.
+        - Designed and established the frontend logging, monitoring, and alerting system, which detected severe issues and raised alerts more than ten times, with over 90% of issues resolved before being noticed by users. Used tools such as Kibana, Sentry, NewRelic, etc.
+        - Established team-wide code standards for React and Redux. Ensured code quality through a combination of manual reviews and automated tools (Eslint, Prettier, etc.), and promoted a culture of code review within the team.
+        - Team member development: Designed interview workflows and an original question set for junior and intermediate candidates, effectively improving the performance of new hires. Increased the technical abilities of team members through monitoring on-duty rules, technical seminars, etc.
+        - Product internationalization tools and workflows: Developed a series of automation tools to ensure 100% translation coverage before product release. The tools also automatically detected potential translation issues and eliminated program errors caused by translation problems.
+        - Other engineering optimizations: including build time optimization, security vulnerability scanning, A/B Testing, and mock server implementation.
+      - Beepit.com: An on-site food ordering & delivery platform for Southeast Asian consumers.
         - Planned and implemented progressive refactoring of the project (Class component + original Redux to Functional component + redux-toolkit).
         - Led UI upgrades from version 1.0 to 2.0, including the development of most basic UI components. Achieved seamless switching between the old and new layout systems.
-        - Designed and implemented page loading performance optimizations, improving landing page loading time by approximately 40%.
-      - StoreHub Backoffice: Cashier system management backend for Southeast Asian merchants.
+        - Designed and implemented page loading performance optimizations, improving landing page loading time by about 40%.
+      - StoreHub Backoffice: POS system management backend for Southeast Asian merchants.
         - Designed and implemented progressive architecture upgrades for a large-scale product (Handlebars + jQuery to React.js), achieving seamless switching between the old and new projects. Independently designed the new project's infrastructure and promoted the comprehensive application of TypeScript in the project.
-        - Responsible for developing one of Backoffice's core features – Sales Reports, creating highly configurable, flexible, and high-performance reports.
-  - title: GZE Software
-    subTitle: Frontend Architect, Middle Platform Development Lead; Frontend Architect for Leasing Project
+        - Responsible for developing one of Backoffice's core features – Sales Reports, creating highly configurable, flexible, and high-performance reports and charts.
+  - title: Gezhi Tech
+    subTitle: Middle Platform Development PIC; Frontend Architect for Leasing Project
     date: June 2018 - October 2019
     description: |
       Responsible for frontend and middle platform development for a SaaS platform based on blockchain technology.
 
       Main responsibilities include:
-      - TIDE Gateway: The middle platform of the blockchain platform. As a bridge between the client and blockchain, it provides an enterprise-level SaaS platform solution. Led the team to implement enterprise-level user management, permission control, private key management, data model auto-generation, Serverless Function, etc. This platform was developed using Egg.js / Koa2 and TypeScript.
+      - TIDE Gateway: The middle platform of the blockchain platform. As a bridge between the client and blockchain, it provides an enterprise-level SaaS platform solution. Led the team to implement enterprise-level user management, permission control, private key management, data model auto-generation, serverless Function, etc. This platform was developed using Egg.js / Koa2 and TypeScript.
       - TIDE Console: The frontend of the blockchain platform. As a management interface for blockchain solutions, it also supports embedding user-developed application pages. Responsible for the development of modules such as tenant management, automated rendering forms, and user-customizable interfaces. The development technology is mainly based on antd / next.js / React / mobx.
       - TIDE IDE: A blockchain application development suite based on VSCode. Features include project structure management, build management, and DSL syntax checking. Developed mainly using TypeScript and VSCode API.
-      - Sanyi Customer Cloud App: A mobile app for end-users of Sanyi Group. Responsible for developing native application interfaces using React-Native and hybrid UI development based on Webview. Development technology mainly based on Taro / React-Native.
-      - Sanyi Group Leasing Project: Responsible for the development of Sanyi Group's leasing business platform. Involved in overall project architecture design, frontend and middle platform application layer development, and project management. Mainly developed using the company's own TIDE development framework, and technologies such as React, mobx, and Node.js.
+      - SANY Customer Cloud App: A mobile app for end-users of SANY Group. Responsible for developing native application interfaces using React-Native and hybrid UI development based on Webview. Development technology mainly based on Taro / React-Native.
+      - SANY Group Leasing Project: Responsible for the development of SANY Group's leasing business platform. Involved in overall project architecture design, frontend and middle platform application layer development, and project management. Mainly developed using the company's own TIDE development framework, and technologies such as React, mobx, and Node.js.
   - title: SAP
     subTitle: Senior UI Engineer
     date: April 2014 - June 2018
@@ -59,21 +59,21 @@ workExperience:
 
       Main responsibilities include:
       - Config UI: Help users customize UI interfaces based on arbitrary data models. Personally responsible for UI rendering and interaction with APIs, serving as one of two frontend leads for the project.
-      - Extension Center: Allow users to define their own data models (similar to databases) for customized business purposes. Led a team of two colleagues to implement a completely new frontend for the project, resulting in two patented technologies.
+      - Extension Center: Allow users to define their own data models (similar to databases) for customized business purposes. Led a team of two colleagues to implement a completely new UI for the project, resulting in two patented technologies.
       - Productivity tool development: Developed a series of auxiliary programs to improve engineer productivity in the company. Examples include:
         - DWR Explorer: A plugin based on Chrome developer tools that converts DWR (a protocol used for frontend-Java API communication) requests into readable JSON format data.
         - WebIDE Migrator: A Node.js project used for migrating and converting code between different development environments.
       The technologies mainly used for Config UI and Extension Center were SAP's in-house UI framework SAPUI5.
-  - title: YouJia Network
+  - title: FavBuy.com
     subTitle: Frontend Development Lead
     date: November 2012 - March 2014
     description: |
-      As the sole frontend engineer in the company, I independently handled frontend development for three websites and also did some backend (Python) development. (The company has ceased operations, and the websites have been closed.)
+      As the only frontend engineer in the company, I independently handled frontend development for three websites and also did some backend (Python) development. (The company has ceased operations, and the websites have been closed.)
 
       - favbuy.com: A shopping guide website for overseas brands, constructed with a waterfall layout.
       - dealpick.com: A small shopping and discount information platform.
       - data007.com: A data analysis platform for Taobao stores, providing graphical analysis of store operations for clients.
-  - title: Footprint Network
+  - title: Joyn.cn
     subTitle: Frontend/Backend Engineer; Website Designer
     date: July 2011 - November 2012
     description: |
