@@ -1,85 +1,88 @@
 generalData:
-  title: 鲁轲
-  subTitle: 前端架构师 / 高级前端工程师
+  title: Lu Ke
+  subTitle: Frontend Architect / Senior Frontend Engineer / Full-stack Engineer
   generalDataItems:
-    - icon: info
-      content: 男 / 36岁
-    - icon: education
-      content: 同济大学 本科 计算机科学与技术
-    - icon: telephone
+    - icon: Telephone
       content: +86 156-1870-9033
-    - icon: email
+    - icon: Email
       content: lukeupup@gmail.com
+    - icon: Person
+      content: Male / 36 years old
+    - icon: University
+      content: Tongji University, Bachelor's Degree in Computer Science and Technology
 aboutMe:
-  title: '关键词'
+  title: 'About Me'
   description: |
-    12年前端工作经验 负责过多个大型互联网和SaaS项目
+    12 years of frontend work experience. I have been responsible for multiple large-scale internet and SaaS projects. Proficient in backend development using Node.js. Familiar with cloud-native technologies such as Docker and Kubernetes.
 
-    技术栈：React.js / TypeScript
+    Tech Stack: React.js / JavaScript / TypeScript / Node.js
 workExperience:
-  title: 工作经历
+  title: Work Experience
   data:
   - title: StoreHub
-    subTitle: 前端架构师
-    date: 2019.10 至今 
+    subTitle: Frontend Architect
+    date: October 2019 - Present
     description: |
-      总体负责公司所有web端产品的研发与技术革新。包括面向东南亚商家的收银、库存管理、客户管理系统（Storehub Backoffice），以及扫码点单及外卖服务（beepit.com）等。
+      Overall responsible for the development and technological innovation of all web-based products in the company.
 
-      主要负责项目：
-      - 团队技术把关
-        -	Code review
-        -	Interview
-      - 前端日志及监控系统设计
-      - 产品国际化流程的设计与开发
-      - StoreHub Backoffice: 
-        - 设计并实施了大型SaaS 产品的渐进式技术升级（handlebars+jQuery -> React.js），实现了新老项目的共存与无缝切换。建立了公司前端产品的发布策略与CDN部署方案。
-        - 负责了Backoffice的核心功能之一 – Sales Reports 的开发。实现了高度可配置的、灵活响应、性能优越的报表。
-      - Beepit.com:
-        -	设计并带领团队完成redux重构
-        - 实现新UI基础组件
-  - title: 格智软件
-    subTitle: 前端架构师中台开发负责人；融资租赁项目前端架构师
-    date: 2018/06 ~ 2019/10 
+      Main responsibilities include:
+      - Team-wide technical planning and execution. During this period, I participated in important feature requirement reviews, architecture design, code reviews, etc., for all frontend products of the company.
+      - Designed and established the frontend logging, monitoring, and alerting system. Proactively detected significant issues and raised alerts more than ten times, with over 90% of issues resolved before being noticed by users. Used tools such as Kibana, Sentry, NewRelic, etc.
+      - Established team-wide code standards for React and Redux code styles. Ensured code quality through a combination of manual reviews and automated tools (Eslint, Prettier, etc.), and promoted a culture of code review within the team.
+      - Team member development: Designed interview processes and an original question bank for junior and intermediate candidates, effectively improving the performance of new hires. Increased the technical abilities of team members through monitoring rotations, technical seminars, etc.
+      - Product internationalization tools and processes: Developed a series of automation tools to ensure 100% translation coverage before product launch. The tools also automatically detected potential translation issues and eliminated program errors caused by translation problems.
+      - Other engineering optimizations, including build time optimization, security vulnerability scanning, A/B Testing, and mock server implementation.
+      - Beepit.com: Scanning and ordering + delivery platform for Southeast Asian consumers.
+        - Planned and implemented progressive refactoring of the project (Class component + original Redux to Functional component + redux-toolkit).
+        - Led UI upgrades from version 1.0 to 2.0, including the development of most basic UI components. Achieved seamless switching between the old and new layout systems.
+        - Designed and implemented page loading performance optimizations, improving landing page loading time by approximately 40%.
+      - StoreHub Backoffice: Cashier system management backend for Southeast Asian merchants.
+        - Designed and implemented progressive architecture upgrades for a large-scale product (Handlebars + jQuery to React.js), achieving seamless switching between the old and new projects. Independently designed the new project's infrastructure and promoted the comprehensive application of TypeScript in the project.
+        - Responsible for developing one of Backoffice's core features – Sales Reports, creating highly configurable, flexible, and high-performance reports.
+  - title: GZE Software
+    subTitle: Frontend Architect, Middle Platform Development Lead; Frontend Architect for Leasing Project
+    date: June 2018 - October 2019
     description: |
-      负责基于区块链的 SaaS 平台的前、中台开发。
+      Responsible for frontend and middle platform development for a SaaS platform based on blockchain technology.
 
-      主要负责项目：
-      - TIDE Gateway: 区块链平台的中台。作为客户端与区块链通信的桥梁，提供企业级的 SaaS 平台解决方案。带领团队实现了企业级用户管理、权限控制、私钥管理、数据模型自动生成、Serverless Function 等功能。此平台基于 Egg.js / koa2，用 TypeScript 开发。
-      - TIDE Console: 区块链平台的前台。作为区块链解决方案的管理界面，并支持嵌入用户自己开发的应用页面。负责了租户管理、自动化渲染表单、用户自定义界面等模块的开发。开发技术主要基于 antd / next.js / React / mobx。
-      - TIDE IDE: 基于 VSCode 开发的一套区块链应用开发套件。功能包括项目结构管理、构建管理、DSL 语法检查等。主要基于 Typescript 和 VSCode API开发。
-      - 三一客户云 App：三一集团面向终端用户的手机 App。负责用 React-Native 开发原生应用界面，以及基于 Webview 的 混合 UI 的开发。开发技术主要基于 Taro / React-Native。
-      - 三一集团融资租赁项目：负责三一集团的融资租赁业务平台的开发。负责项目整体架构设计、前端及中台应用层开发、项目管理等。主要基于公司自有的 TIDE 开发框架，和 React / mobx / Node.js 等技术。
+      Main responsibilities include:
+      - TIDE Gateway: The middle platform of the blockchain platform. As a bridge between the client and blockchain, it provides an enterprise-level SaaS platform solution. Led the team to implement enterprise-level user management, permission control, private key management, data model auto-generation, Serverless Function, etc. This platform was developed using Egg.js / Koa2 and TypeScript.
+      - TIDE Console: The frontend of the blockchain platform. As a management interface for blockchain solutions, it also supports embedding user-developed application pages. Responsible for the development of modules such as tenant management, automated rendering forms, and user-customizable interfaces. The development technology is mainly based on antd / next.js / React / mobx.
+      - TIDE IDE: A blockchain application development suite based on VSCode. Features include project structure management, build management, and DSL syntax checking. Developed mainly using TypeScript and VSCode API.
+      - Sanyi Customer Cloud App: A mobile app for end-users of Sanyi Group. Responsible for developing native application interfaces using React-Native and hybrid UI development based on Webview. Development technology mainly based on Taro / React-Native.
+      - Sanyi Group Leasing Project: Responsible for the development of Sanyi Group's leasing business platform. Involved in overall project architecture design, frontend and middle platform application layer development, and project management. Mainly developed using the company's own TIDE development framework, and technologies such as React, mobx, and Node.js.
   - title: SAP
-    subTitle: 高级 UI 工程师
-    date: 2014/04 ~ 2018/06
+    subTitle: Senior UI Engineer
+    date: April 2014 - June 2018
     description: |
-      负责 SAP SuccessFactors（人力资源管理平台）的前端开发。 
+      Responsible for frontend development of SAP SuccessFactors (Human Resources Management Platform).
 
-      主要负责模块： 
-      - Config UI: 帮助用户根据任意数据模型自定义 UI 界面。个人负责 UI 层渲染、与 API 交互等部分，是项目两个前端负责人之一。 
-      - Extension Center: 允许用户定义自有数据模型（类似数据库）从而实现定制化业务。带领两名同事负责项目全新前端的实现。 并基于此研究有两篇专利被收录。
-      - 生产力工具研发 - 开发了一系列用于提高公司工程师开发效率的辅助性程序。举例：
-        -	DWR Explorer: 一个基于 Chrome developer tools 的插件，用于把DWR（一种用于前端与Java API通讯的协议）请求转换成可读的JSON格式数据。
-        -	WebIDE Migrator: 用于在不同开发环境之间迁移与转换代码的 Node.js 项目。 
-      Config UI 与 Extension Center 主要所用技术为 SAP 自研 UI 框架 SAPUI5。
-  - title: 优价网络
-    subTitle: 前端开发负责人
-    date: 2012/11 ~ 2014/03
+      Main responsibilities include:
+      - Config UI: Help users customize UI interfaces based on arbitrary data models. Personally responsible for UI rendering and interaction with APIs, serving as one of two frontend leads for the project.
+      - Extension Center: Allow users to define their own data models (similar to databases) for customized business purposes. Led a team of two colleagues to implement a completely new frontend for the project, resulting in two patented technologies.
+      - Productivity tool development: Developed a series of auxiliary programs to improve engineer productivity in the company. Examples include:
+        - DWR Explorer: A plugin based on Chrome developer tools that converts DWR (a protocol used for frontend-Java API communication) requests into readable JSON format data.
+        - WebIDE Migrator: A Node.js project used for migrating and converting code between different development environments.
+      The technologies mainly used for Config UI and Extension Center were SAP's in-house UI framework SAPUI5.
+  - title: YouJia Network
+    subTitle: Frontend Development Lead
+    date: November 2012 - March 2014
     description: |
-      作为公司唯一的前端工程师，独立负责了三个网站的前端开发，兼任简单的后端（Python）开发。（公司现已停止运营，网站已关闭） 
-      -	favbuy.com: 面向海外品牌的导购网站。基于瀑布流布局构造
-      -	dealpick.com: 小型导购与优惠信息平台。 
-      -	data007.com: 面向淘宝店铺的数据分析平台。以图表形式帮助客户分析店铺运营状况。
-  - title: 脚印网络
-    subTitle: 前/后端开发工程师；兼任网站设计师 
-    date: 2011/07 ~ 2012/11
-    description: |
-      主要负责网站前端开发。兼任简单的后端（PHP）开发，并负责了全站的 UI 设计。 
+      As the sole frontend engineer in the company, I independently handled frontend development for three websites and also did some backend (Python) development. (The company has ceased operations, and the websites have been closed.)
 
-      主要产品： 
-      -	joyn.cn: 旅游信息与游记分享平台（网站内容现已更换）。负责了景点、游记等模块的实现。
+      - favbuy.com: A shopping guide website for overseas brands, constructed with a waterfall layout.
+      - dealpick.com: A small shopping and discount information platform.
+      - data007.com: A data analysis platform for Taobao stores, providing graphical analysis of store operations for clients.
+  - title: Footprint Network
+    subTitle: Frontend/Backend Engineer; Website Designer
+    date: July 2011 - November 2012
+    description: |
+      Mainly responsible for website frontend development, and also performed some backend (PHP) development. Additionally, I was in charge of the overall UI design of the entire website.
+
+      Main product:
+      - joyn.cn: A travel information and travel journal sharing platform (the website content has now been replaced). Responsible for the implementation of modules such as tourist attractions and travel journals.
   - title: AccelOps
-    subTitle: 测试工程师 
-    date: 2010/07 ~ 2011/07
+    subTitle: Test Engineer
+    date: July 2010 - July 2011
     description: |
-      主要负责公司的 IT 管理软件产品（AccelOps）的功能测试与自动化测试（使用 Python）。
+      Mainly responsible for functional testing and automated testing (using Python) of the company's IT management software product (AccelOps).
