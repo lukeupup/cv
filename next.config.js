@@ -2,15 +2,9 @@
 const withYaml = require('next-plugin-yaml');
 
 const nextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "github.com",
-        port: "",
-      },
-    ],
-  },
+  output: 'export',
+  basePath: '/nextjs-github-pages',
+  images: { unoptimized: true },
 };
 
 module.exports = withYaml(nextConfig);
