@@ -7,15 +7,21 @@ generalData:
     - icon: Email
       content: lukeupup@gmail.com
     - icon: Person
-      content: Male / 36 years old
+      content: Male / 36 years old / Shanghai
     - icon: University
       content: Tongji University, Bachelor's Degree in Computer Science and Technology
 aboutMe:
   title: About Me
   description: |
-    12 years of frontend work experience. Have been responsible for multiple large internet and SaaS projects. Familar with backend development using Node.js. Have necessary understanding of cloud-native technologies such as Docker and Kubernetes.
+    Hi, I'm Luke, a Frontend Architect.
 
-    Tech Stack: `React.js` / `JavaScript` / `TypeScript` / `Node.js`
+    I have 12 years of experience in frontend development. I have a deep understanding of web frontend technologies, especially the React technology stack. In addition to my proficient development skills, I also have rich experience in architectural design and frontend engineering. I have led teams to complete the initialization development and refactoring of multiple medium and large projects, and achieved good results.
+
+    In terms of backend development, I can proficiently use Node.js for backend development and have necessary knowledge of microservices and cloud native techs.
+
+    Furthermore, I have unique insights into the technical construction of frontend teams and have brought considerable improvements to the company in member recruitment, engineering standard, and employee technical skills.
+
+    Looking forward to the opportunity to cooperate with you!
 workExperience:
   title: Work Experience
   data:
@@ -60,7 +66,7 @@ workExperience:
 
         Main responsibilities include:
         - **Config UI:** Help users customize UI interfaces based on arbitrary data models. Personally responsible for UI rendering and interaction with APIs, serving as one of two frontend leads for the project.
-        - **Extension Center:** Allow users to define their own data models (similar to databases) for customized business purposes. Led a team of two colleagues to implement a completely new UI for the project, resulting in two patented technologies.
+        - **Extension Center:** Allow users to define their own data models (similar to databases) for customized business purposes. Led a team of two colleagues to implement a completely new UI for the project.
         - Productivity tool development: Developed a series of auxiliary programs to improve engineer productivity in the company. Examples include:
           - **DWR Explorer:** A plugin based on Chrome developer tools that converts DWR (a protocol used for frontend-Java API communication) requests into readable JSON format data.
           - **WebIDE Migrator:** A Node.js project used for migrating and converting code between different development environments.
@@ -88,3 +94,33 @@ workExperience:
       date: 07/2010 ~ 07/2011
       description: |
         Mainly responsible for functional testing and automated testing (using Python) of the company's IT management software product (AccelOps).
+skillSet:
+  title: Professional Skills
+  data:
+    - title: JavaScript and DOM
+      rating: 9
+      description: Proficient in most JavaScript language features and familiar with native browser APIs.
+    - title: React.js and its ecosystem
+      rating: 9
+      description: Proficient in React API, familiar with React principles, familiar with React-based frameworks and tools (Redux, antd, etc.); have a basic understanding of React Native.
+    - title: CSS
+      rating: 8
+      description: Familiar with CSS3, familiar with related dialects (SASS, LESS), etc. Familiar with the Tailwind CSS framework.
+    - title: Node.js
+      rating: 7
+      description: Familiar with Node.js development, including http server such as Express.js and command-line tool development.
+    - title: TypeScript
+      rating: 7
+      description: Familiar with TS syntax, with experience in large-scale project practice. Familiar with type operations.
+    - title: Frontend Engineering
+      rating: 7
+      description: Familiar with packaging tools such as Webpack; familiar with the use and configuration of monitoring tools such as Kibana, Sentry, NewRelic; familiar with common testing frameworks; familiar with cloud services such as AWS S3, CloudFront, etc.
+    - title: Linux and Containerization
+      rating: 5
+      description: Familiar with Linux operations; have some operation experience with containerization technologies such as Docker and Kubernetes.
+    - title: Common Databases
+      rating: 4
+      description: Basic understanding and some usage experience with databases such as MySQL, MongoDB, etc.
+    - title: English
+      rating: 7
+      description: Fluent in reading and writing technical documents in English. Oral communication skills are sufficient for daily communication.
