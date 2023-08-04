@@ -1,11 +1,11 @@
-import "./globals.css";
-import { Inter } from "next/font/google";
-import { ServerThemeProvider } from "next-themes";
-import Providers from "./providers";
+import './globals.css';
+import { Inter } from 'next/font/google';
+import { ServerThemeProvider } from 'next-themes';
+import Providers from './providers';
 // import { generalData } from "@/data/general";
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 // export const metadata: Metadata = {
 //   title: `${generalData.name} - ${generalData.jobTitle}`,
@@ -28,11 +28,7 @@ const inter = Inter({ subsets: ["latin"] });
 //   },
 // };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <ServerThemeProvider attribute="class">
       <html lang="en">

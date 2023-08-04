@@ -1,6 +1,6 @@
-"use client";
-import { useState, useEffect } from "react";
-import { useTheme } from "next-themes";
+'use client';
+import { useState, useEffect } from 'react';
+import { useTheme } from 'next-themes';
 
 const ThemeSwitch = () => {
   const [mounted, setMounted] = useState(false);
@@ -16,10 +16,7 @@ const ThemeSwitch = () => {
 
   return (
     <>
-      <label
-        htmlFor="theme"
-        className="mr-2 font-light text-sm text-slate-400 dark:text-slate-400"
-      >
+      <label htmlFor="theme" className="mr-2 font-light text-sm text-slate-400 dark:text-slate-400">
         Theme
       </label>
       <select
