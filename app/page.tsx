@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
+import { CircularProgressBar } from '@tomickigrzegorz/react-circular-progress-bar';
 import fullData from '@/data/full';
 import React, { useState } from 'react';
 import { GeneralData, Locale, SimpleArticle, Skill, SkillSetData, TimelineData } from '@/types/common';
@@ -118,26 +119,19 @@ const SimpleArticleSection: React.FC<{ data: SimpleArticle }> = ({ data }) => {
   );
 };
 
-const SkillRating: React.FC<{ rating: number; size?: number | string }> = ({ rating, size = 24 }) => {
-  return (
-    <div
-      style={{
-        width: size,
-        height: size,
-        borderRadius: '50%',
-        background: `radial-gradient(closest-side, white 65%, transparent 65% 100%), conic-gradient(#00e2a8 ${
-          rating * 10
-        }%, #defff6 0)`,
-      }}
-    ></div>
-  );
-};
-
 const SkillItem: React.FC<{ skill: Skill }> = ({ skill }) => {
   return (
     <div className="flex w-full sm:w-1/2 flex-none p-4 pl-0 ">
       <div className="flex-none mr-3 pt-3">
-        <SkillRating rating={skill.rating} />
+        <CircularProgressBar
+          percent={skill.rating * 10}
+          size={24}
+          animationOff
+          number={false}
+          stroke={12}
+          colorCircle="#defff6"
+          colorSlice="#00e2a8"
+        />
       </div>
       <div className="flex-1">
         <h4>{skill.title}</h4>
