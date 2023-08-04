@@ -3,7 +3,7 @@ const withYaml = require('next-plugin-yaml');
 
 const nextConfig = {
   output: 'export',
-  basePath: '/nextjs-github-pages',
+  basePath: '/luke-cv',
   images: { unoptimized: true },
 };
 
