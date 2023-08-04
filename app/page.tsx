@@ -135,7 +135,7 @@ const SkillRating: React.FC<{ rating: number; size?: number | string }> = ({ rat
 
 const SkillItem: React.FC<{ skill: Skill }> = ({ skill }) => {
   return (
-    <div className="flex w-full sm:w-1/2 flex-none p-4 pl-0">
+    <div className="flex w-full sm:w-1/2 flex-none p-4 pl-0 ">
       <div className="flex-none mr-3 pt-3">
         <SkillRating rating={skill.rating} />
       </div>
@@ -165,12 +165,12 @@ export default function Home() {
   return (
     <>
       <main className="max-w-3xl mx-auto px-6 py-20 relative min-h-screen font-light print:max-w-none">
-        <p className="text-sm text-slate-400 text-center mb-8 hidden print:block">
+        {/* <p className="text-sm text-slate-400 text-center mb-8 hidden print:block">
           {locale === 'zh' ? '在线查看：' : 'View online: '}
           <a href="https://lukeupup.github.io/luke-cv/" className="underline" target="_blank">
             https://lukeupup.github.io/luke-cv/
           </a>
-        </p>
+        </p> */}
         <LocaleToggler locale={locale} onChange={(locale) => setLocale(locale)} />
         <GeneralDataSection data={fullData[locale].generalData} />
         <SimpleArticleSection data={fullData[locale].aboutMe} />
