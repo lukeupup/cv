@@ -85,7 +85,7 @@ const GeneralDataSection: React.FC<{ data: GeneralData }> = ({ data }) => {
         src={avatar}
         width={160}
         height={160}
-        className="rounded-full object-cover max-w-[96px] max-h-[96px] sm:max-w-none sm:max-h-none"
+        className="rounded-full object-cover max-w-[96px] max-h-[96px] sm:max-w-none sm:max-h-none bg-slate-200"
       />
       <div className="ml-8">
         <h2 className="mb-0.5 text-xl text-slate-900 dark:text-slate-100">{data.title}</h2>

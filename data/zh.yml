@@ -97,7 +97,7 @@ workExperience:
 skillSet:
   title: 职业技能
   data:
-    - title: JavaScript and DOM
+    - title: JavaScript与浏览器API
       rating: 9
       description: 熟悉大部分JS语言特性，熟悉浏览器原生API。
     - title: React.js 及其生态系统

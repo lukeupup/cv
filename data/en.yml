@@ -97,7 +97,7 @@ workExperience:
 skillSet:
   title: Professional Skills
   data:
-    - title: JavaScript and DOM
+    - title: JavaScript and browser API
       rating: 9
       description: Proficient in most JavaScript language features and familiar with native browser APIs.
     - title: React.js and its ecosystem
