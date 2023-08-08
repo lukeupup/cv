@@ -1,7 +1,8 @@
 'use client';
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
-import { CircularProgressBar } from '@tomickigrzegorz/react-circular-progress-bar';
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 import fullData from '@/data/full';
 import React, { useState } from 'react';
 import { GeneralData, Locale, SimpleArticle, Skill, SkillSetData, TimelineData } from '@/types/common';
@@ -122,15 +123,15 @@ const SimpleArticleSection: React.FC<{ data: SimpleArticle }> = ({ data }) => {
 const SkillItem: React.FC<{ skill: Skill }> = ({ skill }) => {
   return (
     <div className="flex w-full sm:w-1/2 flex-none p-4 pl-0 ">
-      <div className="flex-none mr-3 pt-3">
-        <CircularProgressBar
-          percent={skill.rating * 10}
-          size={24}
-          animationOff
-          number={false}
-          stroke={12}
-          colorCircle="#defff6"
-          colorSlice="#00e2a8"
+      <div className="flex-none mr-3 pt-3 w-6">
+        <CircularProgressbar
+          value={skill.rating * 10}
+          strokeWidth={18}
+          styles={buildStyles({
+            pathColor: '#00e2a8',
+            trailColor: '#defff6',
+            strokeLinecap: 'butt',
+          })}
         />
       </div>
       <div className="flex-1">
