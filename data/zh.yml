@@ -49,7 +49,7 @@ workExperience:
           - **设计并实施大型产品的渐进式架构升级** （Handlebars+ jQuery → React.js），实现了新老项目的共存与无缝切换。独立设计了新项目的基础架构。并推动了Typescript在项目中的全面应用。
           - **负责了Backoffice的核心功能之一 – Sales Reports 的开发。** 实现了高度可配置的、灵活响应、性能优越的表格和图表。
     - title: 格智软件
-      subTitle: 前端架构师中台开发负责人；融资租赁项目前端架构师
+      subTitle: 中台开发负责人；融资租赁项目前端架构师
       date: 2018-06 ~ 2019-10
       description: |
         负责基于区块链的 SaaS 平台的前、中台开发。
@@ -61,7 +61,7 @@ workExperience:
         - **三一客户云 App：** 三一集团面向终端用户的手机 App。负责用 React-Native 开发原生应用界面，以及基于 Webview 的 混合 UI 的开发。开发技术主要基于 Taro / React-Native。
         - **三一集团融资租赁项目：** 负责三一集团的融资租赁业务平台的开发。负责项目整体架构设计、前端及中台应用层开发、项目管理等。主要基于公司自有的 TIDE 开发框架，和 React / mobx / Node.js 等技术。
     - title: SAP
-      subTitle: 高级 UI 工程师
+      subTitle: 高级前端开发工程师
       date: 2014-04 ~ 2018-06
       description: |
         负责 SAP SuccessFactors（人力资源管理平台）的前端开发。 
@@ -75,7 +75,7 @@ workExperience:
 
         Config UI 与 Extension Center 主要所用技术为 SAP 自研 UI 框架 SAPUI5。
     - title: 优价网络
-      subTitle: 前端开发负责人
+      subTitle: 前端开发工程师
       date: 2012-11 ~ 2014-03
       description: |
         作为公司唯一的前端工程师，独立负责了三个网站的前端开发，兼任简单的后端（Python）开发。（公司现已停止运营，网站已关闭）
@@ -84,7 +84,7 @@ workExperience:
         -	**dealpick.com:** 小型导购与优惠信息平台。 
         -	**data007.com:** 面向淘宝店铺的数据分析平台。以图表形式帮助客户分析店铺运营状况。
     - title: 脚印网络
-      subTitle: 前/后端开发工程师；兼任网站设计师
+      subTitle: 全栈工程师；兼任网站设计师
       date: 2011-07 ~ 2012-11
       description: |
         主要负责网站前端开发。兼任简单的后端（PHP）开发，并负责了全站的 UI 设计。 

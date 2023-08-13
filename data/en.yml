@@ -61,7 +61,7 @@ workExperience:
         - **SANY Customer Cloud App:** A mobile app for end-users of SANY Group. Responsible for developing native application interfaces using React-Native and hybrid UI development based on Webview. Development technology mainly based on Taro / React-Native.
         - **SANY Group Leasing Project:** Responsible for the development of SANY Group's leasing business platform. Involved in overall project architecture design, frontend and middle platform application layer development, and project management. Mainly developed using the company's own TIDE development framework, and technologies such as React, mobx, and Node.js.
     - title: SAP
-      subTitle: Senior UI Engineer
+      subTitle: Senior Frontend Engineer
       date: 04/2014 ~ 06/2018
       description: |
         Responsible for frontend development of SAP SuccessFactors (Human Resources Management Platform).
@@ -75,7 +75,7 @@ workExperience:
 
         The technologies mainly used for Config UI and Extension Center were SAP's in-house UI framework SAPUI5.
     - title: FavBuy.com
-      subTitle: Frontend Development Lead
+      subTitle: Frontend Engineer
       date: 11/2012 ~ 03/2014
       description: |
         As the only frontend engineer in the company, I independently handled frontend development for three websites and also did some backend (Python) development. (The company has ceased operations, and the websites have been closed.)
@@ -84,7 +84,7 @@ workExperience:
         - **dealpick.com:** A small shopping and discount information platform.
         - **data007.com:** A data analysis platform for Taobao stores, providing graphical analysis of store operations for clients.
     - title: Joyn.cn
-      subTitle: Frontend/Backend Engineer; Website Designer
+      subTitle: Fullstack Engineer; Website Designer
       date: 07/2011 ~ 11/2012
       description: |
         Mainly responsible for website frontend development, and also performed some backend (PHP) development. Additionally, I was in charge of the overall UI design of the entire website.
