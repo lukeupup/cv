@@ -8,6 +8,7 @@ import React, { useState } from 'react';
 import { GeneralData, Locale, SimpleArticle, Skill, SkillSetData, TimelineData } from '@/types/common';
 import avatar from '@/data/avatar.jpg';
 import * as svg from '@/components/svg';
+import { isUrl } from '@/utils';
 
 const Markdown: React.FC<{ children: string; className?: string }> = ({ children, className }) => {
   const classNames = new Set([
@@ -97,10 +98,10 @@ const GeneralDataSection: React.FC<{ data: GeneralData }> = ({ data }) => {
             <li key={content}>
               {icon && svg[icon as keyof typeof svg]
                 ? svg[icon as keyof typeof svg]({
-                    className: 'inline-block mr-2',
-                  })
+                  className: 'inline-block mr-2',
+                })
                 : null}
-              {content}
+              {isUrl(content) ? <a href={content} target='_blank'>{content}</a> : content}
             </li>
           ))}
         </ul>
@@ -162,8 +163,8 @@ export default function Home() {
       <main className="max-w-3xl mx-auto px-6 py-20 relative min-h-screen font-light print:max-w-none">
         {/* <p className="text-sm text-slate-400 text-center mb-8 hidden print:block">
           {locale === 'zh' ? '在线查看：' : 'View online: '}
-          <a href="https://lukeupup.github.io/luke-cv/" className="underline" target="_blank">
-            https://lukeupup.github.io/luke-cv/
+          <a href="https://lukeupup.github.io/cv/" className="underline" target="_blank">
+            https://lukeupup.github.io/cv/
           </a>
         </p> */}
         <LocaleToggler locale={locale} onChange={(locale) => setLocale(locale)} />

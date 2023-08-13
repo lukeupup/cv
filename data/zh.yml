@@ -10,12 +10,14 @@ generalData:
       content: 男 / 36岁 / 上海
     - icon: University
       content: 同济大学 本科 计算机科学与技术
+    - icon: Github
+      content: https://github.com/lukeupup
 aboutMe:
   title: '关于我'
   description: |
     你好，我是鲁轲，一名前端架构师。
 
-    我有12年的前端开发经验。我对web前端技术，尤其是基于React的技术栈有深刻的认识。除了熟练的开发能力，我还拥有良好的架构设计能力与前端工程化的丰富经验。我曾经带领团队完成过多个中大型项目的初始化开发与重构，并取得了良好的效果。
+    我有12年的前端开发经验，对web前端技术，尤其是基于React的技术栈有深刻的认识。除了熟练的开发能力，我还拥有良好的架构设计能力与前端工程化的丰富经验。曾经带领团队完成过多个中大型项目的初始化开发与重构，并取得了良好的效果。
 
     在后端方面，我可以熟练使用Node.js进行后端开发，对微服务、云部署都有一定的了解。
 
@@ -27,7 +29,7 @@ workExperience:
   data:
     - title: StoreHub
       subTitle: 前端架构师
-      date: 2019-10 至今
+      date: 2019-10 ~ 2023-08
       description: |
         总体负责公司所有Web端产品的研发与技术革新。
 
@@ -101,26 +103,23 @@ skillSet:
       rating: 9
       description: 熟悉大部分JS语言特性，熟悉浏览器原生API。
     - title: React.js 及其生态系统
-      rating: 9
-      description: 精通React API，了解React原理，熟悉基于React的框架和工具（Redux，antd等）；对React Native有基本了解。
+      rating: 8
+      description: 熟悉React API，了解React原理，熟悉基于React的框架和工具（Redux，antd等）；对React Native有基本了解。
     - title: CSS
       rating: 8
       description: 熟悉CSS3，了解相关方言（SASS, LESS）等。熟悉 Tailwind CSS 框架。
     - title: Node.js
-      rating: 7
+      rating: 8
       description: 熟悉Node.js开发，包括Express.js等http server和命令行工具开发。
     - title: TypeScript
       rating: 7
       description: 熟悉TS语法，有大型项目实践经验，了解类型运算。
     - title: 前端工程化
-      rating: 7
+      rating: 8
       description: 熟悉Webpack等打包工具；熟悉Kibana、Sentry、NewRelic等监控工具的使用与配置；了解常用测试框架；了解AWS S3、CloudFront等云服务。
     - title: Linux 和容器化
       rating: 5
       description: 熟悉Linux操作；对docker、Kubernetes等容器化技术有一定操作经验。
-    - title: 常用数据库
-      rating: 4
-      description: 对MySQL、MongoDB等数据库有基本了解和一些使用经验。
     - title: 英语
       rating: 7
       description: 可以流畅地用英文阅读和写作技术文档。口语可适应日常沟通。

@@ -10,12 +10,14 @@ generalData:
       content: Male / 36 years old / Shanghai
     - icon: University
       content: Tongji University, Bachelor's Degree in Computer Science and Technology
+    - icon: Github
+      content: https://github.com/lukeupup
 aboutMe:
   title: About Me
   description: |
     Hi, I'm Luke, a Frontend Architect.
 
-    I have 12 years of experience in frontend development. I have a deep understanding of web frontend technologies, especially the React technology stack. In addition to my proficient development skills, I also have rich experience in architectural design and frontend engineering. I have led teams to complete the initialization development and refactoring of multiple medium and large projects, and achieved good results.
+    I have 12 years of experience in frontend development and have a deep understanding of web frontend technologies, especially the React technology stack. In addition to my proficient development skills, I also have rich experience in architectural design and frontend engineering. I have led teams to complete the initialization development and refactoring of multiple medium and large projects, and achieved good results.
 
     In terms of backend development, I can proficiently use Node.js for backend development and have necessary knowledge of microservices and cloud native techs.
 
@@ -27,7 +29,7 @@ workExperience:
   data:
     - title: StoreHub
       subTitle: Frontend Architect
-      date: 10/2019 ~ Present
+      date: 10/2019 ~ 08/2023
       description: |
         Be responsible for the development and technological innovation of all web-based products in the company.
 
@@ -101,26 +103,23 @@ skillSet:
       rating: 9
       description: Proficient in most JavaScript language features and familiar with native browser APIs.
     - title: React.js and its ecosystem
-      rating: 9
+      rating: 8
       description: Proficient in React API, familiar with React principles, familiar with React-based frameworks and tools (Redux, antd, etc.); have a basic understanding of React Native.
     - title: CSS
       rating: 8
       description: Familiar with CSS3, familiar with related dialects (SASS, LESS), etc. Familiar with the Tailwind CSS framework.
     - title: Node.js
-      rating: 7
+      rating: 8
       description: Familiar with Node.js development, including http server such as Express.js and command-line tool development.
     - title: TypeScript
       rating: 7
       description: Familiar with TS syntax, with experience in large-scale project practice. Familiar with type operations.
     - title: Frontend Engineering
-      rating: 7
+      rating: 8
       description: Familiar with packaging tools such as Webpack; familiar with the use and configuration of monitoring tools such as Kibana, Sentry, NewRelic; familiar with common testing frameworks; familiar with cloud services such as AWS S3, CloudFront, etc.
     - title: Linux and Containerization
       rating: 5
       description: Familiar with Linux operations; have some operation experience with containerization technologies such as Docker and Kubernetes.
-    - title: Common Databases
-      rating: 4
-      description: Basic understanding and some usage experience with databases such as MySQL, MongoDB, etc.
     - title: English
       rating: 7
       description: Fluent in reading and writing technical documents in English. Oral communication skills are sufficient for daily communication.
