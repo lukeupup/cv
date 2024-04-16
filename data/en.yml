@@ -37,6 +37,7 @@ workExperience:
         - AuroraPrime Create: A Word plugin for clinical document writing targeted at pharmaceutical companies. The challenges involved handling unstructured documents and performance optimization.
           - Responsible for **initial technical research, architectural design, and development of common components** for an Office Word plugin based on web technologies.
           - Researched and improved the performance of the Word API, **achieving performance improvements of over 100 times on some specific domains**.
+          - Responsible for the development of the core module of the product: TFL Table management.
           
     - title: StoreHub
       subTitle: Frontend Architect
