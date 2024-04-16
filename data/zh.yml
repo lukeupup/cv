@@ -116,6 +116,9 @@ skillSet:
     - title: React.js 及其生态系统
       rating: 8
       description: 熟悉React API，了解React原理，熟悉基于React的框架和工具（Redux，antd等）；对React Native有基本了解。
+    - title: Vue.js 及其生态系统
+      rating: 6
+      description: 熟悉Vue的使用，熟悉基于Vue的框架和工具（Pinia，vue-use等）。
     - title: CSS
       rating: 8
       description: 熟悉CSS3，了解相关方言（SASS, LESS）等。熟悉 Tailwind CSS 框架。
