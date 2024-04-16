@@ -27,6 +27,17 @@ aboutMe:
 workExperience:
   title: Work Experience
   data:
+    - title: AlphaLife Sciences
+      subTitle: Frontend Development Manager
+      date: 2023-10 to present
+      description: |
+        Be responsible for the architecture and development of the company's clinical document writing product.
+
+        Main responsibilities include:
+        - AuroraPrime Create: A Word plugin for clinical document writing targeted at pharmaceutical companies. The challenges involved handling unstructured documents and performance optimization.
+          - Responsible for **initial technical research, architectural design, and development of common components** for an Office Word plugin based on web technologies.
+          - Researched and improved the performance of the Word API, **achieving performance improvements of over 100 times on some specific domains**.
+          
     - title: StoreHub
       subTitle: Frontend Architect
       date: 10/2019 ~ 08/2023
@@ -105,6 +116,9 @@ skillSet:
     - title: React.js and its ecosystem
       rating: 8
       description: Proficient in React API, familiar with React principles, familiar with React-based frameworks and tools (Redux, antd, etc.); have a basic understanding of React Native.
+    - title: Vue.js and its ecosystem
+      rating: 6
+      description: Familiar with the usage of Vue.js and knowledgeable about Vue-based frameworks and tools such as Pinia and vue-use.
     - title: CSS
       rating: 8
       description: Familiar with CSS3, familiar with related dialects (SASS, LESS), etc. Familiar with the Tailwind CSS framework.
@@ -121,5 +135,5 @@ skillSet:
       rating: 5
       description: Familiar with Linux operations; have some operation experience with containerization technologies such as Docker and Kubernetes.
     - title: English
-      rating: 7
+      rating: 6
       description: Fluent in reading and writing technical documents in English. Oral communication skills are sufficient for daily communication.
