@@ -37,6 +37,7 @@ workExperience:
         - AuroraPrime Create：面向药企的临床文档撰写 Word 插件。其难点在于处理非结构化文档，性能优化等方面。
           - 负责了基于 Web 技术的 Office Word 插件开发的**前期技术调研，架构设计、公用组件开发**。
           - 研究并推进 Word API 的性能调优，**局部性能提升高达100倍以上**。
+          - 负责产品核心功能：TFL表格管理的开发。
           
     - title: StoreHub
       subTitle: 前端架构师
